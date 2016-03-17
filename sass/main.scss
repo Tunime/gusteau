@@ -37,6 +37,92 @@
 /*terminamos con los iconos*/
 /*-------------------*/
 /*inicio del cuerpo*/
+ul,figure,img,li,a {
+  padding: 0px;
+  margin: 0px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/*--*/
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+}
+/*menu*/
+header {
+  background: url("../img/portada.png") no-repeat;
+  min-height: 100vh;
+  min-width: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+.u_icon figure {
+  width: 7em;
+}
+.u_icon figure img {
+  width: 100%;
+}
+.u_navegar {
+  display: flex;
+  background: white;
+  justify-content: center;
+  align-items: center;
+  height: 3.5em;
+}
+.u_menu {
+  display: flex;
+  width: 70%;
+  justify-content: flex-end;
+
+  a {
+    margin: 0.5em;
+    color: black;
+  }
+}
+.u_icon {
+  justify-content: flex-start;
+}
+/*menu fin*/
+/*boton menu*/
+.u_contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.u_boton {
+  margin: 0em 0em 2em 0em;
+  a {
+    padding: 1.5em 3.2em;
+    color: aliceblue;
+    background: #FFCC00;
+    color: white;
+  }
+}
+.u_horario {
+  margin: 0.5em 0em 0em 0em;
+  color: white;
+}
+.u_estado_circulo {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background: green;
+  margin: 0px 0.5em 0px 0px;
+}
+.u_estado {
+  display: flex;
+  color: green;
+  margin: 1em 0em 0em 0em;
+}
+/*fin boton menu*/
+
 
 /*terminar el cuerpo*/
 /*-------------------*/
