@@ -80,8 +80,12 @@ header {
   justify-content: flex-end;
 
   a {
-    margin: 0.5em;
+    margin: 0.5em 2em;
     color: black;
+    transition: all 0.5s ease;
+    &:hover {
+      color: #FFCC00;
+    }
   }
 }
 .u_icon {
@@ -95,9 +99,15 @@ header {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  h1 {
+    margin: 0px 0px 14px 0px;
+    padding: 0px;
+    color: white;
+    font-style: italic;
+  }
 }
 .u_boton {
-  margin: 0em 0em 2em 0em;
+  margin: 3em 0em 2em 0em;
   a {
     padding: 1.5em 3.2em;
     color: aliceblue;
@@ -113,16 +123,18 @@ header {
   width: 15px;
   height: 15px;
   border-radius: 10px;
-  background: green;
+  background: #00FF66;
   margin: 0px 0.5em 0px 0px;
 }
 .u_estado {
   display: flex;
-  color: green;
+  color: #00FF66;
   margin: 1em 0em 0em 0em;
 }
 /*fin boton menu*/
+/*ofrecemos*/
 
+/*fin ofrecemos*/
 
 /*terminar el cuerpo*/
 /*-------------------*/
